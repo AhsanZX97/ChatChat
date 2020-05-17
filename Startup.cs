@@ -23,6 +23,9 @@ namespace ChatApp
         {
 
             app.UseDeveloperExceptionPage();
+
+            app.UseStaticFiles();
+
             app.UseMvcWithDefaultRoute();
         }
     }
