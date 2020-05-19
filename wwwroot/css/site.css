@@ -82,6 +82,14 @@ body {
     padding: 1rem;
 }
 
+.chat-input > input {
+    flex-grow: 2;
+}
+
+.chat-input > button {
+    flex-grow: 1;
+}
+
 .message {
     display: flex;
     flex-direction: row;
