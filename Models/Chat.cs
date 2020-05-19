@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace ChatApp.Models
 {
+
     public class Chat {
         public int Id {get;set;}
         public ICollection<Message> Messages {get;set;}
