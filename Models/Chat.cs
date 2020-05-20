@@ -1,6 +1,4 @@
-using System;
 using System.Collections.Generic;
-using Microsoft.AspNetCore.Identity;
 
 namespace ChatApp.Models
 {
@@ -10,17 +8,5 @@ namespace ChatApp.Models
         public ICollection<Message> Messages {get;set;}
         public ICollection<User> Users{get;set;}
         public ChatType Type {get;set;}
-    }
-
-    public class Message {
-        public int Id {get;set;}
-        public string Name {get;set;}
-        public string Text {get;set;}
-        public DateTime Timestamp {get;set;}
-    }
-
-    public class User: IdentityUser
-    {
-        
     }
 }
